@@ -1,0 +1,26 @@
+{
+  "program": {
+    "candyMachine": "Ebzce5SdUADYAztuc85qRy4sxCDZp4fxxdSKu22EGhMJ",
+    "candyGuard": "DqTfjBb8fN1Rz34bYNCrZYYJMWDKm6P8RvRQjy8uas4m",
+    "candyMachineCreator": "7QmGJmXsWU3UXxBpHq7qmAEcaCLLLWRskEZpEbLQdDYp",
+    "collectionMint": "3ant9fUXkP25ATTctLEsWek1oi9NDxicHB8Bs6w4dVPE"
+  },
+  "items": {
+    "-1": {
+      "name": "Test",
+      "image_hash": "9b43a1ee990acefd702c780f6c4e377605bfd961c2383e6d05960af35d21ea33",
+      "image_link": "https://arweave.net/YTzJj0Huq5b7oplh-glAKLRnticPrCBOSDCCQndTHNQ?ext=png",
+      "metadata_hash": "1f85b23ca360f74c220d2975c765e76eca27cdca15a57e743199317ceebb91c3",
+      "metadata_link": "https://arweave.net/s_wlJwHRRk7bT8a_b_kIR0kLVVhUNKUqcXFSSSsq6os",
+      "onChain": true
+    },
+    "0": {
+      "name": "Number #0001",
+      "image_hash": "9b43a1ee990acefd702c780f6c4e377605bfd961c2383e6d05960af35d21ea33",
+      "image_link": "https://arweave.net/iTp_7SThUDhAx0oDhCl6LasGEU4qadmmqeBMkDH3WIM?ext=png",
+      "metadata_hash": "814669877d9cbe0f6cb8e250258b283bffe7d4fea440e8cdd4c0a081f70bd23a",
+      "metadata_link": "https://arweave.net/J_3SL7Mk7ozXs3BGmUiMnDUL239TZ6ZDsY946AfTxdo",
+      "onChain": true
+    }
+  }
+}

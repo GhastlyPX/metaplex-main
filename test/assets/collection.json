@@ -1,0 +1,17 @@
+{
+"name": "Test",
+  "symbol": "TEST",
+  "description": "poofucker",
+  "image": "collection.gif",
+  "attributes": [],
+  "properties": {
+    "files": [
+        {
+             "uri": "collection.gif",
+             "type": "image/gif"
+        }
+    ],
+    "category": "image"
+  },
+  "seller_fee_basis_points": 500
+}

@@ -1,0 +1,56 @@
+{
+  "number": 1,
+  "symbol": "TEST",
+  "sellerFeeBasisPoints": 500,
+  "isMutable": true,
+  "isSequential": false,
+  "creators": [
+    {
+      "address": "Ej4QEmYk2YkRj3nUkPCV3PSyXbt2wVoAerPt9e3ophET",
+      "share": 100
+    }
+  ],
+  "uploadMethod": "bundlr",
+  "awsConfig": null,
+  "nftStorageAuthToken": null,
+  "shdwStorageAccount": null,
+  "pinataConfig": null,
+  "hiddenSettings": null,
+  "guards": {
+      "default": {
+          "botTax": {
+              "value": 0.01,
+              "lastInstruction": true
+          }
+      },
+      "groups": [
+          {
+              "label": "OGs",
+              "guards": {
+                  "startDate": {
+                      "date": "2022-10-10 12:00:00 +0000"
+                  },
+                  "allowList": {
+                      "merkleRoot": "79, 104, 200, 115, 177, 12, 132, 144, 141, 27, 42, 235, 164, 141, 79, 225, 114, 30, 181, 38, 26, 102, 41, 214, 58, 204, 95, 243, 241, 188, 6, 178"
+                  },
+                  "solPayment": {
+                      "value": 1,
+                      "destination": "PanbgtcTiZ2PveV96t2FHSffiLHXXjMuhvoabUUKKm8"
+                  }
+              }
+          },
+          {
+              "label": "Public",
+              "guards": {
+                  "startDate": {
+                      "date": "2022-10-20 18:00:00 +0000"
+                  },
+                  "solPayment": {
+                      "value": 2,
+                      "destination": "PanbgtcTiZ2PveV96t2FHSffiLHXXjMuhvoabUUKKm8"
+                  }
+              }
+          }
+      ]
+  }
+}
